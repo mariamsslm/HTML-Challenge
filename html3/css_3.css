@@ -1,0 +1,66 @@
+body {
+    margin: 0%;
+    padding: 20% ;
+    
+}
+.main {
+    background-color:#b8b8f8;
+}
+.header {
+    background-color: rgb(146, 146, 243);
+     padding: 5% 0% 10% 10%;
+}
+
+h1 {
+    color: white;   
+}
+p {
+    color: white;
+}
+.nav_bar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: aquamarine;
+}
+li {
+    
+    color: rgb(7, 6, 6);
+    padding: 2%;
+    width: 20%;
+   
+    
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-auto-rows: minmax(150px,auto);
+}
+.item {
+    list-style: square;
+    
+}
+
+.first {
+    
+    grid-column-start: 1 ;
+    grid-column-end : 2;
+
+}
+.two {
+    grid-template-columns: 200px 200px 200px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+footer {
+    text-align: center;
+    color:black;
+}
+
+  
+    
+
+
+
